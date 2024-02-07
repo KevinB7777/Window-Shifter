@@ -1,0 +1,15 @@
+{
+    "name": "Panic Button",
+    "description": "Clicking extension icon hides all windows and opens a blank one. Clicking again closes the blank window and maximizes other windows",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+
+    },
+    "permissions":[
+        "tabs"
+    ]
+}
